@@ -111,7 +111,7 @@ class Presentation extends Component {
               <span>Article: BiNeTClus,</span> Bipartite Network Community Detection based on Transactional Clustering, Accepté le 05/09/2020)
             </li>
             <li>
-              <span>Mémoire de maîtrise: </span> La détectoin de communautés dans les graphes bipartis: <a href="https://archipel.uqam.ca/12673/1/M16118.pdf"> https://archipel.uqam.ca/12673/1/M16118.pdf</a> (avec mention excellent)
+              <span>Mémoire de maîtrise: </span> La détectoin de communautés dans les graphes bipartis: <div> <a href="https://archipel.uqam.ca/12673/1/M16118.pdf"> https://archipel.uqam.ca/12673/1/M16118.pdf</a> </div> (avec mention excellent)
             </li>
             <li>
               <span>Github:</span> <a href="https://github.com/khalednouri25">https://github.com/khalednouri25</a>
