@@ -1,0 +1,62 @@
+@import './config';
+.footer {
+  position: relative;
+  background-color: $greene6;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  .text {
+    position: absolute;
+    text-align: center;
+    width: 600px;
+    right: 35%;
+    font-size: 16px;
+    top: 20px;
+    color: $red99;
+
+    @media(max-width: $md) {
+      display: none;
+    }
+  }
+
+  .contacts {
+    position: absolute;
+    font-size: 18px;
+    color: $black;
+    font-weight: 600;
+    text-align: left;
+    height: 80px;
+    right: 30px;
+    top: 10px;
+    display: block;
+
+    .email {
+      padding-left: 40px;
+      height: 25px;  
+      background-image: url('../images/icon_email.svg');
+      background-position: left;        
+      background-repeat: no-repeat;
+      background-size: 35x 35px;
+      margin-top: 5px;
+
+      a {
+        text-decoration: none;
+      }   
+    }
+
+    .phone {
+      padding-left: 30px;
+      height: 35px;
+      background-image: url('../images/phone.svg');
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: 30px 30px;
+      margin-top: 4px;
+    } 
+      
+    @media(max-width: $md) {
+      font-size: 12px;
+      right: 10px;
+    }
+  }
+}

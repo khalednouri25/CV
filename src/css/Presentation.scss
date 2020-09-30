@@ -1,0 +1,73 @@
+@import './config'; 
+
+.presentation {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  h1 {
+    text-transform: uppercase;
+  }
+
+  ul li span {
+    font-weight: 700;
+  }
+
+  .title {
+    font-weight: 800;
+
+
+  }
+
+  .text-presentation {
+    line-height: 25px;
+  }
+
+  .formation {
+
+      h3 {
+          text-transform: uppercase;
+          margin-bottom: 0;
+      }
+
+      h4 {
+        margin-left: 20px;
+        margin-top: 0;
+        text-decoration: underline;
+      }
+
+      ul {
+        line-height: 25px;
+      }
+  }
+
+  .lagn_log {
+
+    ul {
+      line-height: 25px;
+    }
+  }
+
+  .competences {
+    line-height: 25px;
+
+    
+  }
+
+  .realisations {
+    line-height: 25px;
+  }
+
+  .experiences {
+    h4 {
+      margin-bottom: 0;
+    }
+    p {
+      text-decoration: underline;
+      margin-top: 0;
+      margin-left: 15px;
+    }
+
+  }
+}

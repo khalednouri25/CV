@@ -1,0 +1,32 @@
+@import '_config';
+.header {
+  height: 100px;
+  width: 100%;
+    
+  .img {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-image: url('../images/header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    .title {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      margin-top: 35px;
+
+      h1 {
+        color: #993333;
+        margin: 0;
+        font-size: 36px;
+
+        @media(max-width: $md) {
+            font-size: 20px;
+        }
+      }
+    }
+  }
+}
